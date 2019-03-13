@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+--- Initializing a repository sets up the directory for use with git commands. Basically a .git directory is created containing the metadata for the git functions. Without doing this the directory is not recognized as a git repository.
