@@ -1,3 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 --- Initializing a repository sets up the directory for use with git commands. Basically a .git directory is created containing the metadata for the git functions. Without doing this the directory is not recognized as a git repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+--- The staging area allows there to be an extra layer of assurance to see just what we're going to commit. Most people will just add everything (git add *) but then want to see just what is going to be included. I'm not sure where the .gitignore comes into play. with a git add * ? or is there another command that makes sure to look at the .gitignore?
