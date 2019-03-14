@@ -5,3 +5,6 @@ When would you want to use a remote repository rather than keeping all your work
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 --- For the same reasons we do manual commits instead of letting the system save automatically. It's a matter of keeping track of the changes and being aware of conflicts. Otherwise it could be a huge hassle to fix things that might not have needed so much fixing.
+
+
+--- Forking is specific to GitHub. It is basically cloning, but it shows where the repository was cloned from, allowing credit for where the repository was forked from. Cloning is making a local repository and automatically sets the origin. It allows pushing changes back to the remote repository if the user has permissions to change the remote repository.
