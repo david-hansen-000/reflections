@@ -13,3 +13,7 @@ Describe the differences between forks, clones, and branches. When would you use
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 --- I understand this from a point of not always keeping the local repository updated. If I keep updating the local repository without pushing or pulling from the remote then the versions will be very different when I finally do decide to push/pull. And it will take a lot more effort to decide which versions are better and what should be kept/discarded.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+--- Separate branches can be used when the user wants to make something like feature changes or even personal changes if working on a collaborated project and doesn't want the changes to affect the master branch. Keeping things in the master branch means less trouble trying to incorporate or merge a branch back into the master branch.
